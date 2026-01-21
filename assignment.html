@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School page</title>
+    <style>
+        body{
+            background-color: navajowhite;
+        }
+        #Heading one{
+            font-size: 40px;
+            font-family: Times New Roman, sens-serif;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+             text-decoration: underline;
+        }
+        table{
+             width: 100%;
+            background-color: darkgray;
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid black;
+            font-size: 20px;
+
+
+        }
+        td{
+             border: 1px solid black;
+            font-size: 20px;
+            font-family: "DejaVu Sans";
+            padding: 10px;
+            text-align: center;
+        }
+        .links{
+            font-family: cursive;
+        }
+        a{
+
+                color: white;
+                font-size: 20px;
+                display: inline-block;
+                background-color: blue;
+                text-decoration: none;
+                border-radius: 10px;
+                padding: 10px 5px;
+                margin: 30px 20px;
+
+        }
+        a:hover{
+            background-color: skyblue;
+            color: maroon;
+            text-decoration: underline;
+        }
+        .course{
+
+                font-size: 20px;
+                font-family: cursive;
+                color: blue;
+                Background-color: white;
+                display: list-item;
+                padding: 42px;
+                border-radius: 20px;
+        }
+        .form{
+            width: 10%;
+            padding: 10px 90px 200px 50px;
+            height: 100px;
+            background-color: maroon;
+           text-align: left;
+            border-radius: 40px;
+            display: block;
+            margin: auto;
+        }
+        img{
+            display: flex;
+            width: 1000px;
+            margin: auto;
+            height: auto;
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+        img:hover{
+            opacity: 0.7;
+              transform: scale(1.1);
+        }
+        p{
+            text-align: center;
+            background-color: maroon;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+<h1 id="Heading one"> EGERTON UNIVERSITY</h1>
+<div class="links">
+    <a href="index.html">HOME</a>
+    <a href="about.html" target="_blank"> ABOUT US</a>
+    <a href="courses.html">COURSES</a>
+    <a href="contact_us.html"  target="_blank">CONTACT us </a>
+</div>
+<hr>
+<div class="course">
+    <h2> Courses Offered</h2>
+<ul>
+    <li>BSc Medicine</li>
+    <li>BSc Economics</li>
+    <li>BSc Architecture</li>
+    <li>BSc Commerce</li>
+    <li>BSc Education</li>
+</ul>
+ </div>
+<hr>
+<div class="payment">
+<table>
+    <tr>
+        <th>Course Name</th>
+        <th>Duration</th>
+        <th>Fees</th>
+    </tr>
+    <tr>
+        <td>BSc Medicine</td>
+        <td>5 years</td>
+        <td>2,000,000ksh</td>
+    </tr>
+    <tr>
+        <td>BSc Economics</td>
+        <td>4 years</td>
+        <td>1,000,000ksh</td>
+    </tr>
+    <tr>
+        <td>BSc Architecture</td>
+        <td>4 years</td>
+        <td>500,000ksh</td>
+    </tr>
+    <tr>
+        <td>BSc Commerce</td>
+        <td>4 years</td>
+        <td>300,000ksh</td>
+
+    </tr>
+    <tr>
+        <td>BSc Education</td>
+        <td>4 years</td>
+        <td>200,000ksh</td>
+    </tr>
+</table>
+</div>
+<hr>
+<div class="form">
+    <form action="">
+
+    <label >FULL NAME:</label> <br>
+    <input type="text"><br>
+
+    <label >EMAIL ADDRESS:</label><br>
+    <input type="email"><br>
+
+    <label >COURSE SELECTION:</label><br>
+    <select>
+        <option >BSc Medicine</option>
+        <option >BSc Economics</option>
+        <option >BSc Architecture</option>
+        <option >BSc Commerce</option>
+        <option >BSc Education</option>
+    </select><br>
+
+    <label >COMMENT BOX</label><br>
+    <input type="text"><br><br>
+    <button>SUBMIT</button>
+        <br>
+
+
+</form>
+</div>
+<div class="image">
+  <img src="../cb's_%20website/assets/images/university-2104580_1280.jpg" alt="uni"><br><br>
+    <img src="../cb's_%20website/assets/images/university-5188610_1920.jpg" alt="uni">
+</div>
+<br>
+<p> Egerton University@All rights reserved</p>
+</body>
+</html>
